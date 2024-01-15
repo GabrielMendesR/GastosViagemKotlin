@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="azul_escuro">#243DC6</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">GastosViagem</string>
+    <string name="autonomia">Autonomia</string>
+    <string name="calcular">CALCULAR</string>
+    <string name="distancia">Distância</string>
+    <string name="kms_por_litro">KMs Por Litro</string>
+    <string name="preco">Preço</string>
+    <string name="preco_por_litro">Preço Por Litro</string>
+    <string name="seu_gasto_total_sera_de">SEU GASTO TOTAL SERÁ DE:</string>
+    <string name="total_de_quilometros">Total de Quilômetros</string>
+    <style name="Base.Theme.GastosViagem" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.GastosViagem" parent="Base.Theme.GastosViagem"/>
+</resources>
