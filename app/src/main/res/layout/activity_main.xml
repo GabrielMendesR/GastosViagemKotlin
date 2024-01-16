@@ -17,9 +17,9 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginLeft="16dp"
-            android:gravity="start|center|"
-            android:text="Custo de Viagem"
+            android:layout_marginStart="16dp"
+            android:gravity="start|center"
+            android:text="@string/travel_cost"
             android:textColor="@color/white"
             android:textSize="22sp" />
 
@@ -32,45 +32,58 @@
         android:orientation="vertical">
 
         <EditText
+            android:id="@+id/edit_distance"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="16dp"
             android:layout_marginTop="16dp"
-            android:hint="@string/distancia"/>
+            android:hint="@string/distance"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:textColorHint="#546E7A" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="@string/total_de_quilometros" />
+            android:text="@string/total_km" />
 
         <EditText
+            android:id="@+id/edit_price"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="16dp"
             android:layout_marginTop="16dp"
-            android:inputType="text"
-            android:hint="@string/preco" />
+            android:hint="@string/price"
+            android:importantForAutofill="no"
+            android:inputType="numberDecimal"
+            android:minHeight="48dp"
+            android:textColorHint="#546E7A" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="@string/preco_por_litro" />
+            android:text="@string/price_per_liter" />
 
         <EditText
+            android:id="@+id/edit_autonomy"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="16dp"
             android:layout_marginTop="16dp"
-            android:inputType="text"
-            android:hint="@string/autonomia"/>
+            android:hint="@string/autonomy"
+            android:importantForAutofill="no"
+            android:inputType="numberDecimal"
+            android:minHeight="48dp"
+            android:textColorHint="#546E7A" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="@string/kms_por_litro" />
+            android:text="@string/kms_per_liter" />
 
     </LinearLayout>
 
@@ -84,28 +97,30 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="@string/seu_gasto_total_sera_de"
+            android:text="@string/total_spend"
             android:textSize="20sp" />
 
         <TextView
+            android:id="@+id/text_value"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="22dp"
             android:gravity="center"
-            android:text="R$ 0"
+            android:text="@string/total_value"
             android:textColor="@color/azul_escuro"
             android:textSize="32sp" />
 
         <Button
+            android:id="@+id/button_calculate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="32dp"
             android:layout_marginTop="32dp"
             android:backgroundTint="#39B1A7"
             android:padding="16dp"
-            android:text="@string/calcular"
-            android:textSize="22sp"
-            />
+            android:text="@string/calculate"
+            android:textColor="@color/white"
+            android:textSize="22sp" />
 
     </LinearLayout>
 

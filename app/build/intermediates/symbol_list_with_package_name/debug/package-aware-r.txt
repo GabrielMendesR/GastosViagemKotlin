@@ -1350,6 +1350,7 @@ color accent_material_dark
 color accent_material_light
 color androidx_core_ripple_material_light
 color androidx_core_secondary_text_default_material_light
+color azul_escuro
 color background_floating_material_dark
 color background_floating_material_light
 color background_material_dark
@@ -3177,6 +3178,7 @@ id bounceBoth
 id bounceEnd
 id bounceStart
 id buttonPanel
+id button_calculate
 id cache_measures
 id callMeasure
 id cancel_button
@@ -3249,6 +3251,9 @@ id easeInOut
 id easeOut
 id east
 id edge
+id edit_autonomy
+id edit_distance
+id edit_price
 id edit_query
 id edit_text_id
 id elastic
@@ -3529,6 +3534,7 @@ id textTop
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
+id text_value
 id textinput_counter
 id textinput_error
 id textinput_helper_text
@@ -3801,12 +3807,14 @@ string abc_toolbar_collapse_description
 string androidx_startup
 string app_name
 string appbar_scrolling_view_behavior
+string autonomy
 string bottom_sheet_behavior
 string bottomsheet_action_collapse
 string bottomsheet_action_expand
 string bottomsheet_action_expand_halfway
 string bottomsheet_drag_handle_clicked
 string bottomsheet_drag_handle_content_description
+string calculate
 string call_notification_answer_action
 string call_notification_answer_video_action
 string call_notification_decline_action
@@ -3818,6 +3826,7 @@ string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
 string clear_text_end_icon_content_description
+string distance
 string error_a11y_label
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
@@ -3826,6 +3835,7 @@ string fab_transformation_sheet_behavior
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string item_view_role_description
+string kms_per_liter
 string m3_exceed_max_badge_text_suffix
 string m3_ref_typeface_brand_medium
 string m3_ref_typeface_brand_regular
@@ -3931,6 +3941,8 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string price
+string price_per_liter
 string search_menu_title
 string searchbar_scrolling_view_behavior
 string searchview_clear_text_content_description
@@ -3938,6 +3950,11 @@ string searchview_navigation_content_description
 string side_sheet_accessibility_pane_title
 string side_sheet_behavior
 string status_bar_notification_info_overflow
+string total_km
+string total_spend
+string total_value
+string travel_cost
+string validation_fill_all_fields
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog
